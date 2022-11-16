@@ -97,14 +97,14 @@
 					});
 
 					for (const x of arr) {
-						// if name not available
+						// name not available
 						if (this.usernameValue === x) {
 							return alert(`Maaf, Username Telah Terdaftar`);
 						}
 						statusName = true;
 					}
 
-					// if name available
+					// name available
 					if (statusName) {
 						this.userDatas = [];
 						alert(`Berhasil Membuat Akun !`);
