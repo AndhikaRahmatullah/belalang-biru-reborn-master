@@ -7,6 +7,7 @@
     "preview": "vite preview"
   },
   "dependencies": {
+    "firebase": "^9.14.0",
     "pinia": "^2.0.23",
     "tw-elements": "^1.0.0-alpha12",
     "vue": "^3.2.41",
