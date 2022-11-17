@@ -11,7 +11,7 @@
 			<div class="w-[1000px] mt-5">
 				<div class="flex flex-col justify-center items-start">
 					<p class="">Selamat datang di Belalang Biru</p>
-					<p>Silahkan <router-link to="/login" class="underline">login</router-link> untuk menyampaikan keluh kesah mu !</p>
+					<p>Silahkan <router-link to="/sigin" class="underline">login</router-link> untuk menyampaikan keluh kesah mu !</p>
 				</div>
 			</div>
 		</div>

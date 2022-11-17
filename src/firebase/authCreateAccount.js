@@ -1,3 +1,4 @@
+import { getAuth, createUserWithEmailAndPassword } from "firebase/auth";
 import firebase from 'firebase/compat/app';
 import 'firebase/compat/auth';
 import 'firebase/compat/database';
@@ -19,4 +20,7 @@ const firebaseConfig = {
 // Initialize Firebase
 const db = firebase.initializeApp(firebaseConfig);
 
-export default db;
+// create account 
+const auth = getAuth(db);
+
+export default auth

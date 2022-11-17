@@ -7,14 +7,19 @@
 		</div>
 
 		<!-- ruoter -->
-		<div class="mt-10 flex flex-row justify-center items-center gap-4 font-inter font-semibold">
-			<router-link to="/login" class="p-2 rounded-lg text-white bg-dika-1">Masuk</router-link>
-			<router-link to="/register" class="p-2 rounded-lg text-white bg-dika-1">Daftar</router-link>
+		<div class="mt-10 flex flex-row justify-center items-center gap-4">
+			<router-link to="/sigin" class="py-2 px-4 rounded-lg text-white bg-dika-1 font-lora tracking-wider font-semibold">Masuk</router-link>
+			<ModalAuthRegister />
 		</div>
 	</div>
 </template>
+
 <script>
+	import ModalAuthRegister from "../components/ModalAuthRegister.vue";
 	export default {
+		components: {
+			ModalAuthRegister,
+		},
 		created() {
 			document.title = `Belalang Biru`;
 		},
