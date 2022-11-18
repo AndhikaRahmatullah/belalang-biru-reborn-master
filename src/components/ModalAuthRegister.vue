@@ -17,23 +17,33 @@
 					<!-- modal body -->
 					<div class="modal-body relative p-4">
 						<!-- form create account -->
-						<div class="flex flex-col justify-center items-center gap-3" v-if="createStatus">
+						<div class="flex flex-col justify-center items-start gap-3" v-if="createStatus">
 							<!-- username input -->
 							<div class="form-floating w-full">
 								<input type="text" class="form-control block w-full px-3 py-1.5 text-base font-normal bg-clip-padding bg-transparent border-b-[3px] border-solid border-gray-300 transition-all duration-300 m-0 focus:text-dika-1 focus:border-dika-1 outline-none focus:ring-0" id="floatingInput" placeholder="Username" v-model="usernameValue" />
 								<label for="floatingInput" class="text-gray-700">Username</label>
 							</div>
+
 							<!-- email input -->
 							<div class="form-floating w-full">
 								<input type="email" class="form-control block w-full px-3 py-1.5 text-base font-normal bg-clip-padding bg-transparent border-b-[3px] border-solid border-gray-300 transition-all duration-300 m-0 focus:text-dika-1 focus:border-dika-1 outline-none focus:ring-0" id="floatingInput" placeholder="Email" v-model="emailValue" />
 								<label for="floatingInput" class="text-gray-700">Email</label>
 							</div>
+
 							<!-- password input -->
 							<div class="form-floating w-full">
 								<input type="password" class="form-control block w-full px-3 py-1.5 text-base font-normal bg-clip-padding bg-transparent border-b-[3px] border-solid border-gray-300 transition-all duration-300 m-0 focus:text-dika-1 focus:border-dika-1 outline-none focus:ring-0" id="floatingPassword" placeholder="Password" v-model="passwordValue" />
 								<label for="floatingPassword" class="text-gray-700">Password</label>
 							</div>
+
+							<!-- description -->
+							<div class="ml-5 mt-5 text-red-500 tracking-wide">
+								<p class="">Catatan :</p>
+								<p class="">- Tidak perlu menggunakan Email asli Kamu. Namun perhatikan penulisan Email yang valid. Contoh ( example@gmail.com ).</p>
+								<p class="">- Password minimal 6 digit.</p>
+							</div>
 						</div>
+
 						<!-- create account success -->
 						<div class="font-medium" v-else>Pendaftaran akun berhasil, silahkan masuk !</div>
 					</div>
