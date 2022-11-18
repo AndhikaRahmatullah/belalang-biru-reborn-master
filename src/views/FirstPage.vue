@@ -8,7 +8,7 @@
 
 		<!-- ruoter -->
 		<div class="mt-10 flex flex-row justify-center items-center gap-4">
-			<router-link to="/sigin" class="py-2 px-4 rounded-lg text-white bg-dika-1 font-lora tracking-wider font-semibold">Masuk</router-link>
+			<router-link to="/sigin" class="py-2 px-4 rounded-lg text-white bg-dika-1 font-lora tracking-wider font-semibold transition-all duration-300 hover:bg-dika-3">Masuk</router-link>
 			<ModalAuthRegister />
 		</div>
 	</div>
