@@ -97,25 +97,36 @@
 				const auth = getAuth(db);
 				const database = getDatabase(db);
 
-				createUserWithEmailAndPassword(auth, email, password)
-					.then((userCredential) => {
-						// Signed in
-						const user = userCredential.user;
-						set(ref(database, "users/" + user.uid), {
-							username: username,
-							email: email,
-							password: password,
+				if (!username || !email || !password) {
+					alert(`Mohon isi semua formulir yang tersedia !`);
+				} else {
+					createUserWithEmailAndPassword(auth, email, password)
+						.then((userCredential) => {
+							// Signed in
+							const user = userCredential.user;
+							set(ref(database, "users/" + user.uid), {
+								username: username,
+								email: email,
+								password: password,
+							});
+						})
+						.then(() => {
+							this.createStatus = false;
+							alert(`Berhasil Membuat Akun !`);
+						})
+						.catch((error) => {
+							const errorCode = error.code;
+							const errorMessage = error.message;
+
+							if (errorMessage === `Firebase: Error (auth/email-already-in-use).`) {
+								alert(`Email telah terdaftar, mohon gunakan Email lain !`);
+							} else if (errorMessage === `Firebase: Error (auth/invalid-email).`) {
+								alert(`Mohon masukan email yang valid !`);
+							} else if (errorMessage === `Firebase: Password should be at least 6 characters (auth/weak-password).`) {
+								alert(`Password minimal terdiri dari 6 karakter/digit !`);
+							}
 						});
-					})
-					.then(() => {
-						this.createStatus = false;
-						alert(`Berhasil Membuat Akun !`);
-					})
-					.catch((error) => {
-						const errorCode = error.code;
-						const errorMessage = error.message;
-						alert(errorMessage);
-					});
+				}
 			},
 
 			close() {
