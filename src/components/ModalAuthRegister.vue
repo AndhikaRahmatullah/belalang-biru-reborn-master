@@ -1,11 +1,10 @@
 <template>
 	<div>
 		<!-- Button trigger modal -->
-		<button type="button" class="py-2 px-4 rounded-lg text-white bg-dika-1 font-lora tracking-wider font-semibold transition-all duration-300 hover:bg-dika-3" data-bs-toggle="modal" data-bs-target="#staticBackdropRegister">Daftar</button>
+		<button type="button" class="py-2 px-4 text-xs md:text-sm lg:text-base rounded-lg text-white bg-dika-1 font-lora tracking-wider font-semibold transition-all duration-300 hover:bg-dika-3" data-bs-toggle="modal" data-bs-target="#staticBackdropRegister">Daftar</button>
 
 		<!-- Modal -->
 		<div class="modal fade fixed top-0 left-0 hidden w-full h-full outline-none overflow-x-hidden overflow-y-auto font-lora" id="staticBackdropRegister" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropRegisterLabel" aria-hidden="true">
-			<!-- <div class="fixed top-0 left-0 w-full h-full outline-none overflow-x-hidden overflow-y-auto font-lora"> -->
 			<div class="modal-dialog modal-xl relative w-auto pointer-events-none">
 				<div class="modal-content border-none shadow-lg relative flex flex-col pointer-events-auto bg-white bg-clip-padding rounded-md outline-none text-current">
 					<!-- modal header -->
