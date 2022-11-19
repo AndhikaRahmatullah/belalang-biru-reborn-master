@@ -44,7 +44,7 @@
 								</div>
 								<div class="flex flex-row gap-2">
 									<p class="">-</p>
-									<p class="">Password minimal 6 digit.</p>
+									<p class="">Password minimal terdiri dari 6 karakter atau digit.</p>
 								</div>
 							</div>
 						</div>
