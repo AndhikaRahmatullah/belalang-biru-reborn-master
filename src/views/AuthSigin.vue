@@ -15,13 +15,13 @@
 						<div class="w-full" v-if="loginStatus">
 							<!-- email input -->
 							<div class="form-floating w-full">
-								<input type="email" class="form-control text-base md:text-lg lg:text-xl block w-full px-3 py-1.5 font-normal bg-clip-padding bg-transparent border-b-[3px] border-solid border-gray-300 transition-all duration-300 m-0 focus:text-dika-3 focus:border-dika-3 outline-none focus:ring-0" id="floatingInput" placeholder="Email" v-model="emailValueLogin" />
+								<input type="email" class="form-control text-base md:text-lg lg:text-xl block w-full px-3 py-1.5 font-normal bg-clip-padding bg-transparent border-b-[3px] border-solid border-gray-300 transition-all duration-300 m-0 focus:text-dika-3 focus:border-dika-3 outline-none focus:ring-0" id="floatingInput" placeholder="Email" v-model="emailValueLogin" @keypress.enter="login" />
 								<label for="floatingInput" class="text-xs md:text-sm lg:text-base text-gray-700 font-medium tracking-wide">Email</label>
 							</div>
 
 							<!-- password input -->
 							<div class="form-floating w-full">
-								<input type="password" class="form-control text-base md:text-lg lg:text-xl block w-full px-3 py-1.5 font-normal bg-clip-padding bg-transparent border-b-[3px] border-solid border-gray-300 transition-all duration-300 m-0 focus:text-dika-3 focus:border-dika-3 outline-none focus:ring-0" id="floatingPassword" placeholder="Password" v-model="passwordValueLogin" />
+								<input type="password" class="form-control text-base md:text-lg lg:text-xl block w-full px-3 py-1.5 font-normal bg-clip-padding bg-transparent border-b-[3px] border-solid border-gray-300 transition-all duration-300 m-0 focus:text-dika-3 focus:border-dika-3 outline-none focus:ring-0" id="floatingPassword" placeholder="Password" v-model="passwordValueLogin" @keypress.enter="login" />
 								<label for="floatingPassword" class="text-xs md:text-sm lg:text-base text-gray-700 font-medium tracking-wide">Password</label>
 							</div>
 						</div>
