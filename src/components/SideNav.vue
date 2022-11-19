@@ -4,7 +4,7 @@
 		<router-link to="/">
 			<div class="my-2 flex justify-center gap-2">
 				<img src="../assets/belalangBiru.png" alt="" class="w-[30px]" />
-				<p class="text-xl font-cinzel font-bold bg-gradient-to-r from-dika-1 via-dika-3 to-dika-2 text-transparent bg-clip-text">Belalang Biru</p>
+				<p class="text-xl font-inter font-black bg-gradient-to-r from-dika-1 via-dika-3 to-dika-2 text-transparent bg-clip-text tracking-widest">Belalang Biru</p>
 			</div>
 		</router-link>
 		<hr />
@@ -16,7 +16,7 @@
 					<img src="https://mdbcdn.b-cdn.net/img/new/avatars/8.webp" class="rounded-full w-10" alt="Avatar" />
 				</div>
 				<div class="grow ml-3">
-					<p class="w-[100px] text-base font-lora font-bold italic text-dika-1 truncate">{{ currentUsername }}</p>
+					<p class="w-[100px] text-base font-lora font-bold text-dika-1 truncate tracking-wide">{{ currentUsername }}</p>
 				</div>
 			</div>
 		</div>
@@ -29,12 +29,14 @@
 					<span>Beranda</span>
 				</router-link>
 			</li>
+
 			<!-- about -->
 			<li class="relative" id="sidenavSecEx3">
 				<router-link to="/about" class="flex items-center gap-2 text-sm py-4 px-3 h-12 overflow-hidden text-ellipsis whitespace-nowrap rounded-r hover:text-dika-1 hover:bg-blue-50 transition duration-300 ease-in-out border-l-2" data-mdb-ripple="true" data-mdb-ripple-color="primary" active-class="border-dika-1 text-dika-1 font-medium">
 					<span>Tentang Kami</span>
 				</router-link>
 			</li>
+
 			<!-- signout -->
 			<li class="relative" id="sidenavSecEx3">
 				<router-link to="/sigin" class="flex items-center gap-2 text-sm py-4 px-3 h-12 overflow-hidden text-ellipsis whitespace-nowrap rounded-r hover:text-dika-1 hover:bg-blue-50 transition duration-300 ease-in-out border-l-2" data-mdb-ripple="true" data-mdb-ripple-color="primary" active-class="border-dika-1 text-dika-1 font-medium">
