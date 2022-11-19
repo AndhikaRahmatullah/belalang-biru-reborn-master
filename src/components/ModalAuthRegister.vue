@@ -36,10 +36,16 @@
 							</div>
 
 							<!-- description -->
-							<div class="ml-5 mt-5 text-red-500 tracking-wide">
+							<div class="ml-5 mt-5 text-red-500 tracking-wide flex flex-col gap-2 lg:gap-0">
 								<p class="">Catatan :</p>
-								<p class="">- Tidak perlu menggunakan Email asli Kamu. Namun perhatikan penulisan Email yang valid. Contoh ( example@gmail.com ).</p>
-								<p class="">- Password minimal 6 digit.</p>
+								<div class="flex flex-row gap-2">
+									<p class="">-</p>
+									<p class="leading-tight">Tidak perlu menggunakan Email asli Kamu. Namun perhatikan penulisan Email yang valid. Contoh (example@gmail.com).</p>
+								</div>
+								<div class="flex flex-row gap-2">
+									<p class="">-</p>
+									<p class="">Password minimal 6 digit.</p>
+								</div>
 							</div>
 						</div>
 
