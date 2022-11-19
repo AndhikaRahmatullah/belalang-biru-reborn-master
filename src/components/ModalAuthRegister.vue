@@ -36,7 +36,7 @@
 							</div>
 
 							<!-- description -->
-							<div class="ml-5 mt-5 text-red-500 tracking-wide flex flex-col gap-2 lg:gap-0">
+							<div class="ml-5 mt-5 text-xs md:text-sm lg:text-base text-red-500 tracking-wide flex flex-col gap-2 lg:gap-0">
 								<p class="">Catatan :</p>
 								<div class="flex flex-row gap-2">
 									<p class="">-</p>
