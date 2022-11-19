@@ -8,7 +8,7 @@
 			<div class="w-60 h-full shadow-2xl bg-white fixed font-inter" v-show="!navStatus">
 				<!-- header -->
 				<div class="my-2 flex justify-center gap-2" @click="showNav">
-					<img src="../assets/belalangBiru.png" alt="" class="w-[30px]" />
+					<img src="../assets/belalangBiru.png" alt="" class="w-[30px] animate-pulse" />
 					<p class="text-xl font-inter font-black bg-gradient-to-r from-dika-1 via-dika-3 to-dika-2 text-transparent bg-clip-text tracking-widest">Belalang Biru</p>
 				</div>
 				<hr />
