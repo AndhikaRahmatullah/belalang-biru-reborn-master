@@ -1,5 +1,5 @@
 <template>
-	<div class="w-60 h-full shadow-md bg-white fixed font-inter" id="sidenavSecExample">
+	<div class="hidden md:block w-60 h-full shadow-md bg-white fixed font-inter" id="sidenavSecExample">
 		<!-- header -->
 		<router-link to="/">
 			<div class="my-2 flex justify-center gap-2">
