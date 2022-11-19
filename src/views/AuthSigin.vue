@@ -3,7 +3,7 @@
 		<!-- login page -->
 		<div class="w-[300px] md:w-[700px] lg:w-[900px] xl:w-[1200px] bg-white rounded-lg">
 			<!-- form -->
-			<div class="py-10 px-2 flex flex-col md:flex-row justify-center items-center gap-7 md:gap-4 border-2 border-gray-300 rounded-lg shadow-2xl">
+			<div class="h-[500px] md:h-auto py-10 px-2 flex flex-col md:flex-row justify-between md:justify-center items-center md:gap-4 border-2 border-gray-300 rounded-lg shadow-2xl">
 				<div class="md:basis-1/2">
 					<img src="../assets/doodleLogin.png" alt="" class="" />
 				</div>
@@ -32,7 +32,7 @@
 						</div>
 
 						<!-- button -->
-						<div class="modal-footer flex flex-shrink-0 flex-wrap items-center justify-end p-4 rounded-b-md gap-4">
+						<div class="mt-5 md:mt-0 modal-footer flex flex-shrink-0 flex-wrap items-center justify-end p-4 rounded-b-md gap-4">
 							<!-- close -->
 							<router-link to="/" type="button" class="py-2 px-4 text-xs md:text-sm lg:text-base bg-dika-3 transition-all duration-300 text-white rounded-lg shadow-lg font-lora hover:bg-dika-1 active:shadow-none active:scale-95" @click="close">Kembali</router-link>
 							<!-- login -->
