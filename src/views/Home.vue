@@ -2,23 +2,48 @@
 	<div class="min-h-screen bg-gray-50">
 		<SideNav />
 		<SideNavPhone />
+
 		<!-- home page -->
-		<div class="md:ml-60 py-5 flex flex-col justify-center items-center">
+		<div class="md:ml-48 lg:ml-20 py-5 flex flex-col justify-center items-center">
 			<!-- title  -->
-			<div class="lg:w-[1000px]">
-				<p class="p-2 font-lora font-semibold text-5xl bg-gradient-to-r from-dika-1 via-dika-3 to-dika-2 text-transparent bg-clip-text tracking-wide w-fit">Beranda</p>
+			<div class="md:w-[450px] lg:w-[1000px]">
+				<p class="p-2 text-2xl md:text-3xl lg:text-5xl font-lora font-semibold bg-gradient-to-r from-dika-1 via-dika-3 to-dika-2 text-transparent bg-clip-text w-fit tracking-wide">Beranda</p>
 			</div>
-			<!-- body  -->
-			<div class="lg:w-[1000px] mt-5">
-				<div class="flex flex-col justify-center items-start">
-					<p class="">Selamat datang di Belalang Biru</p>
-					<p>
-						Lorem ipsum dolor sit amet consectetur adipisicing elit. Corrupti delectus voluptatum quam, architecto corporis magni a iure numquam deserunt ut nisi placeat vero molestiae, dolore error laboriosam. Nisi nobis quae distinctio dolores dicta, numquam, vero suscipit quasi illo culpa voluptatem ipsum aperiam, dolore illum ut nesciunt repudiandae molestiae hic iusto. Corrupti autem saepe laborum nobis, praesentium eos, qui eligendi consectetur hic esse, vel unde deleniti impedit corporis minima laboriosam blanditiis repudiandae repellat. Aperiam animi ducimus, deleniti totam inventore repellendus, ullam eius magni, ad laboriosam ea. Quis itaque necessitatibus sit! Nemo itaque maiores, obcaecati quis inventore quo voluptas eius iste eaque fugiat facilis accusamus mollitia. Laborum odio officiis quos iusto qui sapiente sit dolorem omnis. Nulla suscipit hic saepe ipsam quas exercitationem, accusamus ea molestias adipisci. Nostrum dolor reiciendis, atque nobis corporis debitis molestiae nemo aperiam voluptates. Nam nobis exercitationem accusantium qui, quo voluptas, laudantium quibusdam adipisci odit voluptates pariatur! Nulla assumenda accusamus quidem fuga illum dolor quia sapiente excepturi numquam minus cupiditate suscipit expedita consequatur libero culpa unde magnam labore itaque, pariatur corporis quod, molestias sit nam? Architecto earum hic rem mollitia doloribus similique voluptatum repudiandae aperiam distinctio qui ducimus fugiat fugit quibusdam consectetur optio ullam velit maiores laudantium est, nulla sapiente dicta eveniet itaque amet? Cumque, dolore? Voluptatum odit nihil alias necessitatibus repudiandae fuga harum provident expedita veritatis quisquam nemo repellat dolores ex saepe aspernatur quod molestiae culpa, doloremque iure accusamus ipsa! Laudantium illum ullam neque laboriosam perspiciatis nobis alias cupiditate accusamus animi perferendis! Non alias numquam asperiores dolorem error facere. Repellat, doloribus veniam neque debitis hic
-						facere consequuntur excepturi quas culpa quasi magnam inventore asperiores cumque explicabo laborum error, ipsam unde perspiciatis. Nobis ipsam officiis laboriosam itaque vel et maiores architecto praesentium deserunt, iure, voluptas assumenda nisi similique? Doloremque ex suscipit hic. Nisi itaque non incidunt iusto maiores ratione nulla voluptate unde. Perferendis, similique, iste nostrum, animi harum consectetur dolore fugiat error dolor minima sunt velit. Excepturi fugiat suscipit perspiciatis, laborum numquam temporibus, dicta corrupti, ipsam blanditiis culpa unde? Architecto, optio? Repudiandae, provident sit at ea nam soluta ut eum cumque sint, molestias asperiores pariatur, consectetur reprehenderit debitis quisquam hic ad. Illo velit incidunt nihil rerum, nam esse maiores, voluptatibus quos animi sapiente natus placeat labore nulla blanditiis quaerat fugiat. Libero vel alias cumque placeat suscipit laboriosam numquam aliquam mollitia ratione. Dolorem labore dicta voluptatum corporis impedit sequi nobis vitae ducimus quae magni. Commodi dolores officiis vel fugit ipsa ducimus quia ratione, nesciunt eveniet minima? Aperiam laudantium quisquam voluptas natus vero aliquam aliquid, expedita, iste autem accusamus inventore nemo. Minima, sit debitis! Placeat optio error et, culpa aliquid molestiae vel aut repellat. Blanditiis repudiandae, tenetur expedita cumque nemo at, iure debitis officia, ipsa est ut. Laborum, dignissimos sapiente quos ad quasi aut omnis consectetur ex quidem, quia rem impedit laboriosam maxime sunt aliquam commodi? Eveniet odio earum inventore veritatis sint autem consequatur ipsum aspernatur reiciendis doloribus sequi accusantium, natus aliquid consectetur enim debitis praesentium repellat aliquam qui soluta dolores cupiditate. Omnis recusandae doloribus hic temporibus distinctio dicta natus aperiam. Voluptas nobis, minus nisi impedit quod nesciunt iusto alias eius veritatis consectetur adipisci repellendus non mollitia, itaque
-						deleniti eligendi nam saepe, nemo possimus atque perferendis! Fugit asperiores sed fugiat voluptates possimus nihil excepturi dignissimos ullam? Odio, molestias voluptatibus impedit earum, vitae, voluptatum nobis vel modi corporis voluptatem doloribus maxime sapiente. Ad, corrupti deserunt. Commodi dolor placeat minus quos quis, ad quia dolores unde cupiditate assumenda blanditiis, saepe ipsum tempore dolore consectetur neque et. Ratione doloremque, dignissimos tempore rerum vel quibusdam dolores eveniet accusantium quasi voluptatibus qui perferendis aliquid asperiores nostrum quisquam. Doloribus aliquid, similique sapiente vero in neque libero excepturi eos consequatur vel sit nostrum vitae reiciendis molestias possimus, perferendis eligendi quam inventore minima sunt minus cupiditate! Nostrum, dolor? Dolor quidem id facilis, atque fuga repellendus dignissimos quis dolores illum? Doloremque asperiores eligendi tempore blanditiis quam recusandae repellat id quisquam reiciendis at, consectetur eius temporibus necessitatibus aliquam incidunt officiis illum ut, ratione accusamus expedita alias. Aliquid nemo facere nisi error doloremque quasi, doloribus odio nulla quam ex a voluptates. Cupiditate tenetur quaerat autem mollitia optio, cumque quas eveniet asperiores at blanditiis eaque quos molestias non ad nesciunt quibusdam dignissimos temporibus ipsum ea, minus doloribus praesentium maiores aut et. Itaque, doloremque, omnis iusto excepturi nobis temporibus blanditiis totam minima deserunt, aliquid est cupiditate ipsam eveniet explicabo cum aspernatur ut iste ab. Maiores ducimus animi eos cum qui veritatis sed exercitationem eligendi ut ipsam cupiditate inventore rerum nulla laudantium voluptatem vitae in, dolorum repellat consectetur, tempore, totam dolores consequatur amet laborum. Repellendus repellat consectetur mollitia nesciunt error sed ducimus quam voluptate autem, rem asperiores distinctio dolorum temporibus ipsa consequatur. Sapiente omnis
-						doloremque officiis consectetur placeat, iusto error ipsa culpa eius tempora voluptate numquam praesentium perspiciatis quae quia voluptatem provident debitis deleniti! Possimus velit magnam rerum corrupti, praesentium voluptas, perferendis, odio commodi ratione esse dignissimos quo illo eligendi sequi eius eveniet atque rem saepe natus. Deleniti iste neque necessitatibus qui maiores fugit molestiae dolorum sed, aliquam optio sint quam in, perferendis, cum praesentium commodi saepe dolorem quos accusamus illum illo harum minus quo explicabo. Deleniti doloribus incidunt quod iure aspernatur voluptas quae, mollitia sunt. Ex at, esse necessitatibus voluptates veritatis similique molestias quisquam dolore odio fuga ipsam optio quia cupiditate harum perspiciatis aut officiis! Nesciunt enim et corrupti dolores porro temporibus numquam earum maxime aliquid hic libero quibusdam voluptatem asperiores velit atque optio ex vitae id at, nulla odio recusandae molestias! Tempora error quo quas dolorem laboriosam nisi impedit, eius quasi excepturi sed pariatur fugit, quam accusamus necessitatibus quibusdam deserunt sit. Earum totam optio beatae eos eius vitae perspiciatis sint, natus quidem blanditiis voluptas adipisci, sapiente consequuntur corrupti nostrum illo accusamus modi maiores libero at laboriosam obcaecati neque. Nihil ipsa iure accusantium magnam quibusdam ipsam, accusamus repellendus aperiam quia ad assumenda, incidunt enim quos quidem itaque iusto sit ut fugiat iste blanditiis eligendi facilis, dolorem eveniet corporis! Quam laudantium corporis quasi magni dolor sunt architecto exercitationem minima delectus, unde alias maxime aspernatur at culpa, suscipit voluptas expedita autem! Saepe sed minima soluta.!
-					</p>
+
+			<!-- body -->
+			<div class="md:w-[450px] lg:w-[1000px] mt-5">
+				<!-- create new story -->
+				<div class="flex flex-col justify-center items-end gap-5">
+					<textarea name="" id="" class="w-full h-[200px] p-5 border-4 border-gray-400 rounded-lg resize-none outline-none shadow-md" placeholder="Apa yang kamu pikirkan ?" v-model="createStoryValue"></textarea>
+
+					<div class="">
+						<a href="#created" class="py-2 px-4 text-xs md:text-sm lg:text-base rounded-lg text-white bg-dika-1 font-lora tracking-wider font-semibold transition-all duration-300 hover:bg-dika-3" @click="createStory">Kirim</a>
+					</div>
 				</div>
+
+				<!-- display all users story ASLI -->
+				<div class="mt-20 flex flex-col gap-5">
+					<div class="" v-for="data in datasAllStories" :key="data.timeCreate">
+						<div class="p-5 bg-gray-500 rounded-lg font-inter shadow-xl">
+							<!-- user datas -->
+							<div class="pb-2 flex flex-row justify-between items-center border-b-2">
+								<div class="flex flex-row gap-3 items-center">
+									<img src="/PXL_20221118_125644333.jpg" alt="" class="w-[50px] rounded-full border-2" />
+									<p class="text-white">{{ data.username }}</p>
+								</div>
+								<p class="text-white">{{ data.timeCreate }}</p>
+							</div>
+
+							<!-- user story -->
+							<div class="pt-2 flex justify-start items-center gap-5">
+								<p class="text-white text-justify">{{ data.story }}</p>
+							</div>
+						</div>
+					</div>
+				</div>
+
+				<!-- gamau pusing kaga bisa reverse -->
+				<div class="" id="created"></div>
 			</div>
 		</div>
 	</div>
@@ -27,8 +52,22 @@
 <script>
 	import SideNav from "../components/SideNav.vue";
 	import SideNavPhone from "../components/SideNavPhone.vue";
+	import db from "../firebase/index.js";
+	import { getDatabase, ref, set, onValue, push } from "firebase/database";
+	import { getAuth } from "firebase/auth";
+	import { res } from "../utils/date.js";
 
 	export default {
+		data() {
+			return {
+				currentUserId: "",
+				currentUsername: "",
+				createStoryValue: "",
+				time: "",
+				datasAllStories: [],
+			};
+		},
+
 		components: {
 			SideNav,
 			SideNavPhone,
@@ -36,6 +75,70 @@
 
 		created() {
 			document.title = `Beranda | Belalang Biru`;
+			this.userSelect();
+			this.currentUser();
+			this.allStories();
+		},
+
+		mounted() {
+			setInterval(() => {
+				this.time = res();
+			}, 500);
+		},
+
+		updated() {},
+
+		methods: {
+			createStory() {
+				let story = this.createStoryValue;
+				let user = this.currentUsername;
+				const database = getDatabase(db);
+
+				const postListRef = ref(database, "story-datas");
+				const newPostRef = push(postListRef);
+				set(newPostRef, {
+					username: user,
+					story: story,
+					timeCreate: res(),
+				});
+
+				this.createStoryValue = "";
+			},
+
+			userSelect() {
+				const auth = getAuth(db);
+				const user = auth.currentUser;
+
+				if (user) {
+					this.currentUserId = user.uid;
+				} else {
+					// No user is signed in.
+				}
+			},
+
+			// current user / username active
+			currentUser() {
+				const database = getDatabase(db);
+				const starCountRef = ref(database, "users/" + this.currentUserId);
+				onValue(starCountRef, (snapshot) => {
+					const data = snapshot.val();
+					this.currentUsername = data.username;
+				});
+			},
+
+			allStories() {
+				this.datasAllStories = [];
+
+				const database = getDatabase(db);
+				const allDatasStories = ref(database, "story-datas");
+
+				onValue(allDatasStories, (snapshot) => {
+					const data = snapshot.val();
+					this.datasAllStories = data;
+
+					return this.datasAllStories;
+				});
+			},
 		},
 	};
 </script>

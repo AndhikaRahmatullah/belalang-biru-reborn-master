@@ -3,7 +3,7 @@
 		<SideNav />
 		<SideNavPhone />
 
-		<!-- home page -->
+		<!-- about page -->
 		<div class="md:ml-48 lg:ml-20 py-5 flex flex-col justify-center items-center">
 			<!-- title  -->
 			<div class="md:w-[450px] lg:w-[1000px]">
