@@ -21,14 +21,14 @@
 					</div>
 				</div>
 
-				<!-- display all users story ASLI -->
+				<!-- display all users story -->
 				<div class="mt-20 flex flex-col gap-5">
 					<div class="" v-for="data in datasAllStories" :key="data.timeCreate">
 						<div class="p-5 bg-gray-500 rounded-lg font-inter shadow-xl">
 							<!-- user datas -->
 							<div class="pb-2 flex flex-row justify-between items-center border-b-2">
 								<div class="flex flex-row gap-3 items-center">
-									<img src="/PXL_20221118_125644333.jpg" alt="" class="w-[50px] rounded-full border-2" />
+									<img :src="data.avatar" alt="" class="w-[50px] p-1 rounded-full bg-white" />
 									<p class="text-white">{{ data.username }}</p>
 								</div>
 								<p class="text-white">{{ data.timeCreate }}</p>
@@ -62,6 +62,7 @@
 			return {
 				currentUserId: "",
 				currentUsername: "",
+				currentAvatar: "",
 				createStoryValue: "",
 				time: "",
 				datasAllStories: [],
@@ -92,12 +93,14 @@
 			createStory() {
 				let story = this.createStoryValue;
 				let user = this.currentUsername;
+				let avatar = this.currentAvatar;
 				const database = getDatabase(db);
 
 				const postListRef = ref(database, "story-datas");
 				const newPostRef = push(postListRef);
 				set(newPostRef, {
 					username: user,
+					avatar: avatar,
 					story: story,
 					timeCreate: res(),
 				});
@@ -122,6 +125,7 @@
 				const starCountRef = ref(database, "users/" + this.currentUserId);
 				onValue(starCountRef, (snapshot) => {
 					const data = snapshot.val();
+					this.currentAvatar = data.avatar;
 					this.currentUsername = data.username;
 				});
 			},
