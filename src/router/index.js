@@ -2,7 +2,6 @@ import { createRouter, createWebHistory } from 'vue-router'
 import FirstPage from '../views/FirstPage.vue'
 import Home from '../views/Home.vue'
 import About from '../views/About.vue'
-import Register from '../views/Register.vue'
 import Sigin from '../views/AuthSigin.vue'
 
 const router = createRouter({
@@ -22,11 +21,6 @@ const router = createRouter({
 			path: '/about',
 			name: 'about',
 			component: About
-		},
-		{
-			path: '/register',
-			name: 'register',
-			component: Register
 		},
 		{
 			path: '/sigin',
