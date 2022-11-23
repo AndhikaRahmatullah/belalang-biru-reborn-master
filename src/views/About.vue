@@ -3,7 +3,7 @@
 		<SideNav />
 		<SideNavPhone />
 
-		<!-- home page -->
+		<!-- about page -->
 		<div class="md:ml-48 lg:ml-20 py-5 flex flex-col justify-center items-center">
 			<!-- title  -->
 			<div class="md:w-[450px] lg:w-[1000px]">
@@ -13,7 +13,7 @@
 			<!-- body  -->
 			<div class="md:w-[450px] lg:w-[1000px] mt-5">
 				<div class="flex flex-col justify-center items-center gap-5">
-					<p class="px-5 md:px-0 text-sm md:text-base lg:text-lg text-justify">Lorem ipsum dolor sit amet consectetur adipisicing elit. Commodi, soluta. Autem pariatur vero error, molestias esse doloribus facilis eveniet laboriosam obcaecati voluptatem aliquam ratione, odit minima corrupti eum quae itaque vel. Voluptatum, ab. Labore architecto eveniet unde excepturi alias quibusdam officia molestias. Aut ipsa rerum dolorum, exercitationem a harum corporis!</p>
+					<p class="px-5 md:px-0 text-sm md:text-base lg:text-lg text-justify font-light">Belalang Biru adalah salah satu aplikasi sederhana berbasis website yang saya buat. Aplikasi ini dibuat menggunakan Teknologi Vue.js, TailwnidCSS, Firebase dan beberapa plugin lainnya sebagai pendukung.</p>
 
 					<!-- logos -->
 					<div class="flex flex-row items-center gap-5">

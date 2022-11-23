@@ -17,7 +17,7 @@
 				<div class="pt-4 pb-2 px-3">
 					<div class="flex items-center justify-center">
 						<div class="shrink-0">
-							<img src="https://mdbcdn.b-cdn.net/img/new/avatars/8.webp" class="rounded-full w-10" alt="Avatar" />
+							<img :src="currentAvatar" class="rounded-full w-10" alt="Avatar" />
 						</div>
 						<div class="grow ml-3">
 							<p class="w-[100px] text-base font-lora font-bold text-dika-1 truncate tracking-wide">{{ currentUsername }}</p>
@@ -70,6 +70,7 @@
 			return {
 				currentUserId: "",
 				currentUsername: "",
+				currentAvatar: "",
 				navStatus: true,
 			};
 		},
@@ -106,6 +107,7 @@
 				onValue(starCountRef, (snapshot) => {
 					const data = snapshot.val();
 					this.currentUsername = data.username;
+					this.currentAvatar = data.avatar;
 				});
 			},
 		},

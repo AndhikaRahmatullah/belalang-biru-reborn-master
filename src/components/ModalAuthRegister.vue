@@ -35,6 +35,48 @@
 								<label for="floatingPassword" class="text-gray-700">Password</label>
 							</div>
 
+							<!-- avatar -->
+							<div class="w-full flex flex-col justify-center items-start gap-2">
+								<p class="px-3">Pilih Avatar Kamu :</p>
+								<div class="px-3 flex flex-row justify-center items-center gap-5">
+									<!-- avatar 1 -->
+									<div class="form-check form-check-inline">
+										<input class="form-check-input appearance-none rounded-full h-4 w-4 border border-gray-300 bg-white checked:bg-blue-600 checked:border-blue-600 focus:outline-none transition duration-200 mt-1 align-top bg-no-repeat bg-center bg-contain float-left mr-2 cursor-pointer" type="radio" name="inlineRadioOptions" id="inlineRadio1" value="https://img.icons8.com/color/512/bee.png" />
+										<label class="form-check-label inline-block text-gray-800" for="inlineRadio1"><img src="https://img.icons8.com/color/512/bee.png" alt="" class="w-[40px] cursor-pointer" /></label>
+									</div>
+									<!-- avatar 2 -->
+									<div class="form-check form-check-inline">
+										<input class="form-check-input appearance-none rounded-full h-4 w-4 border border-gray-300 bg-white checked:bg-blue-600 checked:border-blue-600 focus:outline-none transition duration-200 mt-1 align-top bg-no-repeat bg-center bg-contain float-left mr-2 cursor-pointer" type="radio" name="inlineRadioOptions" id="inlineRadio2" value="https://img.icons8.com/color/512/bug.png" />
+										<label class="form-check-label inline-block text-gray-800" for="inlineRadio2"><img src="https://img.icons8.com/color/512/bug.png" alt="" class="w-[40px] cursor-pointer" /></label>
+									</div>
+									<!-- avatar 3 -->
+									<div class="form-check form-check-inline">
+										<input class="form-check-input appearance-none rounded-full h-4 w-4 border border-gray-300 bg-white checked:bg-blue-600 checked:border-blue-600 focus:outline-none transition duration-200 mt-1 align-top bg-no-repeat bg-center bg-contain float-left mr-2 cursor-pointer" type="radio" name="inlineRadioOptions" id="inlineRadio3" value="https://img.icons8.com/color/512/machaon-butterfly.png" />
+										<label class="form-check-label inline-block text-gray-800" for="inlineRadio3"><img src="https://img.icons8.com/color/512/machaon-butterfly.png" alt="" class="w-[40px] cursor-pointer" /></label>
+									</div>
+									<!-- avatar 4 -->
+									<div class="form-check form-check-inline">
+										<input class="form-check-input appearance-none rounded-full h-4 w-4 border border-gray-300 bg-white checked:bg-blue-600 checked:border-blue-600 focus:outline-none transition duration-200 mt-1 align-top bg-no-repeat bg-center bg-contain float-left mr-2 cursor-pointer" type="radio" name="inlineRadioOptions" id="inlineRadio4" value="https://img.icons8.com/color/512/fly.png" />
+										<label class="form-check-label inline-block text-gray-800" for="inlineRadio4"><img src="https://img.icons8.com/color/512/fly.png" alt="" class="w-[40px] cursor-pointer" /></label>
+									</div>
+									<!-- avatar 5 -->
+									<div class="form-check form-check-inline">
+										<input class="form-check-input appearance-none rounded-full h-4 w-4 border border-gray-300 bg-white checked:bg-blue-600 checked:border-blue-600 focus:outline-none transition duration-200 mt-1 align-top bg-no-repeat bg-center bg-contain float-left mr-2 cursor-pointer" type="radio" name="inlineRadioOptions" id="inlineRadio5" value="https://img.icons8.com/color/512/dragonfly.png" />
+										<label class="form-check-label inline-block text-gray-800" for="inlineRadio5"><img src="https://img.icons8.com/color/512/dragonfly.png" alt="" class="w-[40px] cursor-pointer" /></label>
+									</div>
+									<!-- avatar 6 -->
+									<div class="form-check form-check-inline">
+										<input class="form-check-input appearance-none rounded-full h-4 w-4 border border-gray-300 bg-white checked:bg-blue-600 checked:border-blue-600 focus:outline-none transition duration-200 mt-1 align-top bg-no-repeat bg-center bg-contain float-left mr-2 cursor-pointer" type="radio" name="inlineRadioOptions" id="inlineRadio6" value="https://img.icons8.com/color/512/grasshopper.png" />
+										<label class="form-check-label inline-block text-gray-800" for="inlineRadio6"><img src="https://img.icons8.com/color/512/grasshopper.png" alt="" class="w-[40px] cursor-pointer" /></label>
+									</div>
+									<!-- avatar 7 -->
+									<div class="form-check form-check-inline">
+										<input class="form-check-input appearance-none rounded-full h-4 w-4 border border-gray-300 bg-white checked:bg-blue-600 checked:border-blue-600 focus:outline-none transition duration-200 mt-1 align-top bg-no-repeat bg-center bg-contain float-left mr-2 cursor-pointer" type="radio" name="inlineRadioOptions" id="inlineRadio7" value="https://img.icons8.com/color/512/mosquito.png" />
+										<label class="form-check-label inline-block text-gray-800" for="inlineRadio7"><img src="https://img.icons8.com/color/512/mosquito.png" alt="" class="w-[40px] cursor-pointer" /></label>
+									</div>
+								</div>
+							</div>
+
 							<!-- description -->
 							<div class="ml-5 mt-5 text-xs md:text-sm lg:text-base text-red-500 tracking-wide flex flex-col gap-2 lg:gap-0">
 								<p class="">Catatan :</p>
@@ -77,6 +119,7 @@
 				usernameValue: "",
 				emailValue: "",
 				passwordValue: "",
+				avatarValue: "",
 				createStatus: true,
 			};
 		},
@@ -92,12 +135,15 @@
 				let username = this.usernameValue;
 				let email = this.emailValue;
 				let password = this.passwordValue;
+				let avatar = this.avatarValue;
+
+				this.avatarUserValue();
 
 				// create account
 				const auth = getAuth(db);
 				const database = getDatabase(db);
 
-				if (!username || !email || !password) {
+				if (!username || !email || !password || !avatar) {
 					alert(`Mohon isi semua formulir yang tersedia !`);
 				} else {
 					createUserWithEmailAndPassword(auth, email, password)
@@ -108,6 +154,7 @@
 								username: username,
 								email: email,
 								password: password,
+								avatar: avatar,
 							});
 						})
 						.then(() => {
@@ -126,6 +173,16 @@
 								alert(`Password minimal terdiri dari 6 karakter/digit !`);
 							}
 						});
+				}
+			},
+
+			avatarUserValue() {
+				var radios = document.getElementsByName("inlineRadioOptions");
+
+				for (var i = 0, length = radios.length; i < length; i++) {
+					if (radios[i].checked) {
+						return (this.avatarValue = radios[i].value);
+					}
 				}
 			},
 
