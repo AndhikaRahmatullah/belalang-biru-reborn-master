@@ -4,39 +4,39 @@
 		<SideNavPhone />
 
 		<!-- home page -->
-		<div class="md:ml-48 lg:ml-20 py-5 flex flex-col justify-center items-center">
+		<div class="md:ml-48 lg:ml-20 py-5 flex flex-col justify-center items-center font-inter">
 			<!-- title  -->
 			<div class="md:w-[450px] lg:w-[1000px]">
 				<p class="p-2 text-2xl md:text-3xl lg:text-5xl font-lora font-semibold bg-gradient-to-r from-dika-1 via-dika-3 to-dika-2 text-transparent bg-clip-text w-fit tracking-wide">Beranda</p>
 			</div>
 
 			<!-- body -->
-			<div class="md:w-[450px] lg:w-[1000px] mt-5">
+			<div class="px-5 md:px-0 md:w-[450px] lg:w-[1000px] mt-5">
 				<!-- create new story -->
 				<div class="flex flex-col justify-center items-end gap-5">
-					<textarea name="" id="" class="w-full h-[200px] p-5 border-4 border-gray-400 rounded-lg resize-none outline-none shadow-md" placeholder="Apa yang kamu pikirkan ?" v-model="createStoryValue"></textarea>
+					<textarea name="" id="" class="w-full h-[150px] md:h-[200px] p-5 text-sm md:text-base lg:text-lg border-4 border-gray-400 rounded-lg resize-none outline-none shadow-md placeholder:text-sm md:placeholder:text-base lg:placeholder:text-lg" placeholder="Apa yang kamu pikirkan ?" v-model="createStoryValue"></textarea>
 
 					<div class="">
-						<a href="#created" class="py-2 px-4 text-xs md:text-sm lg:text-base rounded-lg text-white bg-dika-1 font-lora tracking-wider font-semibold transition-all duration-300 hover:bg-dika-3" @click="createStory">Kirim</a>
+						<a href="#created" class="py-2 px-4 text-xs md:text-sm lg:text-base rounded-lg text-white bg-dika-1 font-lora tracking-wider font-semibold transition-all duration-300 hover:bg-dika-3" @click="createStory">Buat Cerita</a>
 					</div>
 				</div>
 
 				<!-- display all users story -->
-				<div class="mt-20 flex flex-col gap-5">
+				<div class="mt-20 flex flex-col gap-10">
 					<div class="" v-for="data in datasAllStories" :key="data.timeCreate">
-						<div class="p-5 bg-gray-500 rounded-lg font-inter shadow-xl">
+						<div class="p-5 bg-gray-500 rounded-lg shadow-lg border-2 border-gray-400">
 							<!-- user datas -->
-							<div class="pb-2 flex flex-row justify-between items-center border-b-2">
+							<div class="pb-5 flex flex-col justify-between gap-2 items-center border-b-2 border-gray-400 border-dashed">
 								<div class="flex flex-row gap-3 items-center">
-									<img :src="data.avatar" alt="" class="w-[50px] p-1 rounded-full bg-white" />
-									<p class="text-white">{{ data.username }}</p>
+									<img :src="data.avatar" alt="" class="w-[40px] lg:w-[50px] p-1 rounded-full border-2 border-white" />
+									<p class="text-base md:text-lg lg:text-xl text-gray-50 font-lora tracking-wider font-medium">@{{ data.username }}</p>
 								</div>
-								<p class="text-white">{{ data.timeCreate }}</p>
+								<p class="text-xs md:text-sm lg:text-base text-gray-400 font-lora italic tracking-wide">{{ data.timeCreate }}</p>
 							</div>
 
 							<!-- user story -->
-							<div class="pt-2 flex justify-start items-center gap-5">
-								<p class="text-white text-justify">{{ data.story }}</p>
+							<div class="pt-5 flex justify-start items-center gap-5">
+								<p class="text-xs md:text-sm lg:text-base text-white text-justify font-light tracking-wide">{{ data.story }}</p>
 							</div>
 						</div>
 					</div>
