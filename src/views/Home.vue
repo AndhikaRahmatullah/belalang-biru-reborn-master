@@ -22,17 +22,17 @@
 						v-model="createStoryValue"></textarea>
 
 					<div class="">
-						<a
+						<button
 							href="#created"
 							class="py-2 px-4 text-xs md:text-sm lg:text-base rounded-lg text-white bg-dika-1 font-lora tracking-wider font-semibold transition-all duration-300 hover:bg-dika-3"
-							@click="createStory"
-							>Buat Cerita</a
-						>
+							@click="createStory">
+							Buat Cerita
+						</button>
 					</div>
 				</div>
 
 				<!-- display all users story -->
-				<div class="mt-20 flex flex-col gap-10">
+				<div class="mt-20 flex flex-col-reverse gap-10">
 					<div
 						class=""
 						v-for="data in datasAllStories"
@@ -57,11 +57,6 @@
 						</div>
 					</div>
 				</div>
-
-				<!-- gamau pusing kaga bisa reverse -->
-				<div
-					class=""
-					id="created"></div>
 			</div>
 		</div>
 	</div>
